@@ -7,10 +7,5 @@
   },
   "dependencies": {
     "@snax/core": "workspace:*"
-  },
-  "author": {
-    "name": "Sergei Mozhaev",
-    "email": "mozhaev.dev@gmail.com"
-  },
-  "license": "ISC"
+  }
 }

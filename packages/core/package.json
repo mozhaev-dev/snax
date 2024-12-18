@@ -1,19 +1,17 @@
 {
   "name": "@snax/core",
   "version": "0.1.0",
-  "description": "Simple network analyser",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "rollup -c",
+    "dev": "rollup -cw"
   },
-  "keywords": [
-    "network",
-    "analyser"
-  ],
-  "author": {
-    "name": "Sergei Mozhaev",
-    "email": "mozhaev.dev@gmail.com"
-  },
-  "license": "ISC"
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.28.1",
+    "rollup-plugin-typescript2": "^0.36.0"
+  }
 }
