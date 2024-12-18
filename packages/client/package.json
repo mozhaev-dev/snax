@@ -2,7 +2,9 @@
   "name": "@snax/client",
   "version": "0.1.0",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@snax/core": "workspace:*"
   },
