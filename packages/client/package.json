@@ -1,0 +1,14 @@
+{
+  "name": "@snax/client",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@snax/core": "workspace:*"
+  },
+  "author": {
+    "name": "Sergei Mozhaev",
+    "email": "mozhaev.dev@gmail.com"
+  },
+  "license": "ISC"
+}

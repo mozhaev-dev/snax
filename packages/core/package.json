@@ -1,0 +1,17 @@
+{
+  "name": "@snax/core",
+  "version": "0.1.0",
+  "description": "Simple network analyser",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [
+    "network",
+    "analyser"
+  ],
+  "author": {
+    "name": "Sergei Mozhaev",
+    "email": "mozhaev.dev@gmail.com"
+  },
+  "license": "ISC"
+}
