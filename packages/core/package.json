@@ -4,13 +4,15 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -cw"
+    "build:dev": "NODE_ENV=decelopment rollup -c",
+    "build:prod": "NODE_ENV=production rollup -c",
+    "dev": "NODE_ENV=development rollup -cw"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "rollup": "^4.28.1",
     "rollup-plugin-typescript2": "^0.36.0"
   }
