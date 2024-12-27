@@ -1,3 +1,2 @@
-export const test = (name: string) => {
-  console.log('hello from core, ' + name)
-}
+export * as sniffer from './sniffer'
+export * as utils from './utils'
